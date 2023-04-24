@@ -1,0 +1,14 @@
+[Unit]
+Description=social medium
+After=network.target
+
+[Service]
+User=kamczill
+Group=kamczill
+WorkingDirectory=/home/kamczill/app/src/
+Environment="PATH=/home/kamczill/app/venv/bin"
+EnvironmentFile=/home/kamczill/.env
+ExecStart=/home/kamczill/app/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app --bind 0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target

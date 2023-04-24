@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+
+.background {
+  position: absolute;
+  /* overflow: hidden; */
+  width: 100%;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #FFFFFF, #ffffff);
+  display: flex;
+  flex-grow: 1;
+  z-index: -999;
+}
+
+.background .div {
+  position: absolute;
+  border-radius: 100%;
+  height: 0;
+  filter: blur(240vw);
+  opacity: 0.4;
+  z-index: -3;
+}
+
+.background .div:nth-child(1) {
+  background: linear-gradient(132deg, #5c9d99 0.00%, #46bcfb 100.00%);
+  width: 30%;
+  padding-top: 30%;
+  left: 20%;
+  top: 20%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -3;
+}
+
+.background .div:nth-child(2) {
+  background: linear-gradient(132deg, #0800FF 0.00%, #50a1ed 100.00%);
+  width: 40%;
+  padding-top: 40%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -3;
+}
+
+.background .div:nth-child(3) {
+  background: linear-gradient(132deg, #1FCFC3 0.00%, #1F91CF 100.00%);
+  width: 30%;
+  padding-top: 30%;
+  left: 80%;
+  top: 80%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+/* 
+.background .div:nth-child(4) {
+  background: linear-gradient(132deg, #4360bb 0.00%, #476de1 100.00%);
+  width: 60%;
+  padding-top: 60%;
+  left: 50%;
+  top: 56%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+.background .div:nth-child(5) {
+  background: linear-gradient(132deg, #442c7c 0.00%, #68cbfe 100.00%);
+  width: 17%;
+  padding-top: 17%;
+  left: 12%;
+  top: 28%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+} */
+
