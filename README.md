@@ -1,12 +1,10 @@
 # Social Medium
 
-![Social Medium](https://github.com/kamczill/Social-Medium/raw/main/social_medium_logo.png)
-
 Social Medium is a web application that aims to provide a platform for users to connect, share their thoughts, and engage in meaningful discussions. It is built using modern web technologies and designed to be intuitive, user-friendly, and customizable.
 
 ## Demo
-Frontend: https://fe.socialmedium.life
-Backend: https://socialmedium.life
+- Frontend: https://fe.socialmedium.life
+- Backend: https://socialmedium.life
 
 ## Features
 
