@@ -25,11 +25,10 @@ Social Medium is a web application that aims to provide a platform for users to 
 - **Responsive Design**: The application is built with a responsive design, ensuring a seamless user experience across different devices, including desktops, tablets, and mobile phones.
 
 ## Technologies Used
-- Frontend: HTML, CSS, JavaScript, React.js
-- Backend: Node.js, Express.js
+- Frontend: HTML, CSS, JavaScript, React.js, MUI
+- Backend: Python, FastAPI
 - Database: MongoDB
 - Authentication: JSON Web Tokens (JWT)
-- Image Storage: Amazon S3 (Simple Storage Service)
 - Deployment: Heroku
 
 ## Contributing
